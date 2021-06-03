@@ -1,0 +1,265 @@
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+ 
+<!--
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Product Landing Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	</head>
+	
+	<body>
+			
+		<header id="header">
+			<img id="header-img" src="https://i.imgur.com/eWquEVv.png">
+			<p id="hungry-caption">Hunger™</p>
+			<nav id="nav-bar">
+				<ul>
+					<li><a class="nav-link" href="#main">Introduction</a></li>
+					<li><a class="nav-link" href="#capabilities">Capabilities</a></li>
+					<li><a class="nav-link" href="#our_products">Our products</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+
+			<div id="madness_block">
+				<h1 id="introduction">Madness!? This is Hunger™!!!</h1>
+				<img id="leonidas-img" src="https://i.imgur.com/CEtyNXU.png" alt="">
+			</div>
+			
+			<div class="video__box">
+				<div class="video__box__row">
+					<div class="video-wrap">
+						<video id="video" src="https://giant.gfycat.com/UniqueArtisticHammerheadbird.webm" autoplay="true" loop="true" muted="true">
+					</div>
+					<div class="video_description_box">
+						<p class="video_description">Feel the scent of divine ambrosia.</p>
+					</div>
+				</div>
+				<div class="video__box__row">
+					<div class="video_description_box">
+						<p class="video_description">Try it. </br> You won't regret.</p>
+									</div>
+					<div class="video-wrap">
+						<video class="video" src="https://thumbs.gfycat.com/AcidicHatefulIcelandicsheepdog-mobile.mp4" autoplay="true" loop="true" muted="true">	
+					</div>
+				</div>
+			</div>
+			 		
+			<h2 id="capabilities">Capabilities</h2>
+			<div class="capabilities_box">
+				<div class="capabilities_row">
+					<div class="capabilities_wrapper">
+						<div class="capabilities_icon_description_wrapper">
+							<i class="capabilities_icon">😋</i>
+							<p class="capabilities_description">Yummy</p>
+						</div>
+					</div>
+					<div class="capabilities_wrapper">
+						<div class="capabilities_icon_description_wrapper">
+							<i class="capabilities_icon">🍔</i>
+							<p class="capabilities_description">Nourishing</p>
+						</div>
+					</div>
+					<div class="capabilities_wrapper">
+						<div class="capabilities_icon_description_wrapper">
+							<i class="capabilities_icon">🍕</i>
+							<p class="capabilities_description">Food of various countries</p>
+						</div>
+					</div>
+				</div>
+				<div class="capabilities_row">
+					<div class="capabilities_wrapper">
+						<div class="capabilities_icon_description_wrapper">
+							<i class="capabilities_icon">🍎</i>
+							<p class="capabilities_description">Natural ingredients</p>
+						</div>
+					</div>
+					<div class="capabilities_wrapper">
+						<div class="capabilities_icon_description_wrapper">
+							<i class="capabilities_icon">👌</i>
+							<p class="capabilities_description">Approved by gourmets</p>
+						</div>
+					</div>
+					<div class="capabilities_wrapper">
+						<div class="capabilities_icon_description_wrapper">
+							<i class="capabilities_icon">💲</i>
+							<p class="capabilities_description">Cheap</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2 id="our_products">Our products</h2>
+			
+			<div id="products">	
+				<div class="product__row">
+					
+					<div class="product__box">
+						<div class="is-new__box">
+							<p class="is-new">NEW!</p>
+						</div>
+						<div class="product_photo_wrapper"><img src="https://i.imgur.com/e5H40vz.png" alt="" class="product_photo"></div>
+						<div class="product__description">
+							<h3 class="product__name">Big Burger</h3>
+							<ul>
+								<li class="product_properties">Juicy meat</li>
+								<li class="product_properties">Pretty big</li>
+							</ul>
+						</div>
+						<div class="learn_and_buy_box">
+							<a href="">
+								<p class="learn">Learn</p>
+							</a>
+							<a href="">
+								<p class="buy">Buy</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="product__box">
+						<div class="is-new__box">
+							<p class="is-new">NEW!</p>
+						</div>
+						<div class="product_photo_wrapper"><img src="https://i.imgur.com/0J2vbmA.png?1" alt="" class="product_photo"></div>
+						<div class="product__description">
+							<h3 class="product__name">Sushi set</h3>
+							<ul>
+								<li class="product_properties">Fishy</li>
+								<li class="product_properties">Aesthetically pleasing</li>
+							</ul>
+						</div>
+						<div class="learn_and_buy_box">
+							<a href="">
+								<p class="learn">Learn</p>
+							</a>
+							<a href="">
+								<p class="buy">Buy</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="product__box">
+						<div class="is-new__box">
+							<p class="is-new">NEW!</p>
+						</div>
+						<div class="product_photo_wrapper"><img src="https://i.imgur.com/MojYqg2.png?1" alt="" class="product_photo"></div>
+						<div class="product__description">
+							<h3 class="product__name">Shaurma</h3>
+							<ul>
+								<li class="product_properties">Spicy</li>
+								<li class="product_properties">Unmatching flavor</li>
+							</ul>
+						</div>
+						<div class="learn_and_buy_box">
+							<a href="">
+								<p class="learn">Learn</p>
+							</a>
+							<a href="">
+								<p class="buy">Buy</p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="product__row">
+					
+					<div class="product__box">
+						<div class="is-new__box">
+							<p class="is-new">NEW!</p>
+						</div>
+						<div class="product_photo_wrapper"><img src="https://i.imgur.com/6AAAi3v.png?1" alt="" class="product_photo"></div>
+						<div class="product__description">
+							<h3 class="product__name">Pizza</h3>
+							<ul>
+								<li class="product_properties">Mamma mia</li>
+								<li class="product_properties">Hot</li>
+							</ul>
+						</div>
+						<div class="learn_and_buy_box">
+							<a href="">
+								<p class="learn">Learn</p>
+							</a>
+							<a href="">
+								<p class="buy">Buy</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="product__box">
+						<div class="is-new__box">
+							<p class="is-new">NEW!</p>
+						</div>
+						<div class="product_photo_wrapper"><img src="https://i.imgur.com/KWItfjP.png?1" alt="" class="product_photo"></div>
+						<div class="product__description">
+							<h3 class="product__name">Barbecue</h3>
+							<ul>
+								<li class="product_properties">Smoky</li>
+								<li class="product_properties">Delicious</li>
+							</ul>
+						</div>
+						<div class="learn_and_buy_box">
+							<a href="">
+								<p class="learn">Learn</p>
+							</a>
+							<a href="">
+								<p class="buy">Buy</p>
+							</a>
+						</div>
+					</div>
+
+					<div class="product__box">
+						<div class="is-new__box">
+							<p class="is-new">NEW!</p>
+						</div>
+						<div class="product_photo_wrapper"><img src="https://i.imgur.com/Ph4eaPZ.png?1" alt="" class="product_photo"></div>
+						<div class="product__description">
+							<h3 class="product__name">Caesar salad</h3>
+							<ul>
+								<li class="product_properties">Healthy</li>
+								<li class="product_properties">Yummy</li>
+							</ul>
+						</div>
+						<div class="learn_and_buy_box">
+							<a href="">
+								<p class="learn">Learn</p>
+							</a>
+							<a href="">
+								<p class="buy">Buy</p>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+			
+			<h2 id="subscribe">Subscribe to the Hunger™ feed:</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input id="email" type="email" name="email" placeholder="Enter your Email... or stay hungry">
+				<input id="submit" type="submit" name="submit">
+			</form>
+			
+		</main>
+
+		<footer></footer>
+	</body>
+</html>
+
+<!--
+			div.capabilities_box>(div.capabilities_row>(div.capabilities_wrapper>h3.capabilities_heading{Capability heading}+div.capabilities_icon_description_wrapper>(i.capabilities_icon{¥}+p.capabilities_description{Capability description}))*3)*2
+
+-->
